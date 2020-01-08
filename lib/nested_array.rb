@@ -33,8 +33,8 @@ def sorted_matrix
     
     ]
     
-    newarr[0].sort 
-    newarr[1].sort 
+    newarr[0] = newarr[0].sort 
+    newarr[1] = newarr[1].sort 
     
     return newarr
     
